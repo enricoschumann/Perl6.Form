@@ -1,0 +1,5 @@
+v0.1-0  (2016-03-13)
+
+  o initial version: provides a function 'form', which is a
+    wrapper for Perl function 'form' in Damian Conway's
+    Perl6::Form
