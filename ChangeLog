@@ -1,5 +1,7 @@
 2016-06-09  Enrico Schumann  <es@enricoschumann.net>
 
+        * DESCRIPTION (Version): 0.1-1
+
 	* DESCRIPTION (Depends): add 'R (>= 3.2)' because
 	'form' uses 'lengths'
 
