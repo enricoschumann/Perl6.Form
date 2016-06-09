@@ -12,9 +12,8 @@
 
 }
 \usage{
-form(..., cat = TRUE, perl = "perl")
+form(..., cat = TRUE, perl = "perl", form.options)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{\dots}{
     character and numeric vectors. See Examples.
@@ -24,6 +23,9 @@ form(..., cat = TRUE, perl = "perl")
 }
   \item{perl}{
     name and path of the perl programme
+}
+\item{form.options}{
+  optional: a list of named options; see Examples.
 }
 }
 \details{
@@ -51,6 +53,11 @@ form("* {]]]]]].[} *", nums)
 ##  *       2.17 *
 ##  *    1000.1  *
 ##  *       1.00 * 
+
+
+## use decimal separator as specified by locale
+form("{]]]]]],[}", nums,
+     form.options = list(locale = 1))
 
 
 

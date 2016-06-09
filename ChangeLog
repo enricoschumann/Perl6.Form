@@ -1,5 +1,16 @@
+2016-06-09  Enrico Schumann  <es@enricoschumann.net>
+
+	* DESCRIPTION (Depends): add 'R (>= 3.2)' because
+	'form' uses 'lengths'
+
+        * R/form.R (form): fixed -- 'form' now works when
+	'useFancyQuotes' is not FALSE (before, the function
+	failed or produced warnings)
+	(form): new argument 'form.options' for passing
+	options
+
 2016-03-17  Enrico Schumann  <es@enricoschumann.net>
 
         * DESCRIPTION (Version): 0.1-0
 
-	* R/form.R (form): initial version
+        * R/form.R (form): initial version
